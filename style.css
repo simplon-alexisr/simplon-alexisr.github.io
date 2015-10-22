@@ -1,0 +1,69 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: "Georgia", Times, Serif;
+}
+
+body
+{
+	width: 1000px;
+	height: 200px;
+        background-color: #87CEEB;
+}
+
+header
+{
+	width: auto;
+	height: auto;
+	border: 3px solid black;
+}
+
+.entete
+{
+
+}
+
+.photo img
+{
+
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+}
+
+.nom
+{
+	text-align: center;
+	font-family: "Georgia", Times, Serif;
+}
+
+nav ul li
+{
+	display: inline-block;
+	text-align: center;
+}
+
+.profils
+{
+	font -family: "Georgia";
+	border: 2px solid black;
+}
+
+.diplomes
+{
+}
+
+.competences
+{
+}
+
+.commentaires
+{
+}
+
+.pied
+{
+}
