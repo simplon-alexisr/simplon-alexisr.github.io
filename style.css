@@ -9,9 +9,9 @@
 
 body
 {
-	width: 1000px;
-	height: 200px;
-        background-color: #87CEEB;
+	width: auto;
+	height: auto;
+  background-color: #87CEEB;
 }
 
 header
@@ -23,12 +23,15 @@ header
 
 .entete
 {
-
+	font-family: "Georgia", sans-serif;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
 }
 
 .photo img
 {
-
+	margin-left: 25px;
 	width: 150px;
 	height: 150px;
 	border: 2px solid black;
@@ -40,16 +43,24 @@ header
 	font-family: "Georgia", Times, Serif;
 }
 
-nav ul li
+nav
+{
+	text-align: center;
+}
+div ul li
 {
 	display: inline-block;
-	text-align: center;
+	text-decoration: none;
 }
 
 .profils
 {
+	text-align: center;
 	font -family: "Georgia";
 	border: 2px solid black;
+	text-decoration: none;
+	width: auto;
+	height: auto;
 }
 
 .diplomes
@@ -64,6 +75,11 @@ nav ul li
 {
 }
 
+footer div p
+{
+	text-align: left;
+}
 .pied
 {
+	text-align: center;
 }
