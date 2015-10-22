@@ -47,7 +47,7 @@ nav
 {
 	text-align: center;
 }
-div ul li
+nav div ul li
 {
 	display: inline-block;
 	text-decoration: none;
@@ -63,8 +63,13 @@ div ul li
 	height: auto;
 }
 
+aside
+{
+	text-decoration: none;
+}
 .diplomes
 {
+	text-decoration: none;
 }
 
 .competences
@@ -78,6 +83,11 @@ div ul li
 footer div p
 {
 	text-align: left;
+}
+
+footer div h5
+{
+	margin-right: 20px;
 }
 .pied
 {
